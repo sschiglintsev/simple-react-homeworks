@@ -1,3 +1,37 @@
 .message {
+    flex-grow: 1;
+    padding-left: 10px;
+    background-color: green;
+    border-radius: 0px 10px 10px 0px;
+}
+.messages {
+    display: flex;
+    flex: 1 0;
+    background: greenyellow;
+    padding: 10px;
+
+}
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 0px;
+    height: 70px;
+    width: 70px;
+    padding-right: 20px;
+}
+.name {
+    font-size: 14px;
+    font-family: "Arial Black";
+}
+.p{
+    color: white;
+}
+.span{
+    color: darkgray;
+}
+.ugol {
+    border: 20px solid transparent;
+    border-right: 0px solid green;
+    border-bottom: 20px solid green;
 
 }
