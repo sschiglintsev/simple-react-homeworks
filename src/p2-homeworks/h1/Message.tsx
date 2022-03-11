@@ -12,8 +12,8 @@ export type MessageType = {
 function Message(props: MessageType) {
     return (
         <div className={s.messages}>
-            <div  >
-            <img className={s.circle} src={props.avatar} />
+            <div>
+                <img className={s.circle} src={props.avatar}/>
             </div>
             <span className={s.ugol}></span>
             < div className={s.message}>

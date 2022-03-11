@@ -4,6 +4,7 @@
     background-color: green;
     border-radius: 0px 10px 10px 0px;
 }
+
 .messages {
     display: flex;
     flex: 1 0;
@@ -11,6 +12,7 @@
     padding: 10px;
 
 }
+
 .circle {
     border-radius: 50%;
     overflow: hidden;
@@ -19,16 +21,20 @@
     width: 70px;
     padding-right: 20px;
 }
+
 .name {
     font-size: 14px;
     font-family: "Arial Black";
 }
-.p{
+
+.p {
     color: white;
 }
-.span{
+
+.span {
     color: darkgray;
 }
+
 .ugol {
     border: 20px solid transparent;
     border-right: 0px solid green;
