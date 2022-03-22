@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import Greeting from './Greeting'
+import {log} from "util";
 
 type GreetingContainerPropsType = {
-    users: any // need to fix any
-    addUserCallback: any // need to fix any
+    users: string // need to fix any
+    addUserCallback: (name:string)=>void // need to fix any
 }
 
 // более простой и понятный для новичков
@@ -13,10 +14,11 @@ type GreetingContainerPropsType = {
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
     const [name, setName] = useState<any>('') // need to fix any
-    const [error, setError] = useState<any>('') // need to fix any
+    let [error, setError] = useState<any>(false)// need to fix any
 
-    const setNameCallback = (e: any) => { // need to fix any
-        setName('') // need to fix
+    const setNameCallback = (e: React.ChangeEvent<HTMLInputElement>) => { // need to fix any
+        e.currentTarget.value=== " " ? setError(true):setName('')
+        error=true
     }
     const addUser = () => {
         alert(`Hello  !`) // need to fix
