@@ -1,11 +1,10 @@
 import React, {useState} from 'react'
 import Greeting from './Greeting'
-import {log} from "util";
 import {UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
     users: Array<UserType> // need to fix any
-    addUserCallback: (name:string)=>void // need to fix any
+    addUserCallback: (name: string) => void // need to fix any
 }
 
 // более простой и понятный для новичков
@@ -18,8 +17,15 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     let [error, setError] = useState<boolean>(false)// need to fix any
 
     const setNameCallback = (e: React.ChangeEvent<HTMLInputElement>) => { // need to fix any
-        e.currentTarget.value=== " " ? setError(true):setName(e.currentTarget.value)
-              //setError(false)
+        if (e.currentTarget.value === " ") {
+            setError(true)
+        } else {
+            setName(e.currentTarget.value)
+            setError(false)
+        }
+
+        // e.currentTarget.value=== " " ? setError(true):setName(e.currentTarget.value)
+        // setError(false)
     }
 
     const addUser = () => {
@@ -36,7 +42,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             name={name}
             setNameCallback={setNameCallback}
             addUser={addUser}
-            error={error}
+            error={error ? 'error, add name' : ''}
             totalUsers={totalUsers}
         />
     )
