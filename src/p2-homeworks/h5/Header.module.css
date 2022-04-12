@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    width: 280px;
+    transition-duration: 500ms;
+    transform: translate(-220px);
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
+
+.link {
+    text-decoration: none;
+    color: darkgreen;
+    margin: 10px;
+}
+
+.active {
+    background: yellow;
+}
