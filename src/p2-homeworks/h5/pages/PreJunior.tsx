@@ -12,7 +12,6 @@ import HW10 from "../../h10/HW10";
 function PreJunior() {
     return (
         <div>
-            <HW10/>
             <HW1/>
             <HW2/>
             <HW3/>
@@ -21,6 +20,7 @@ function PreJunior() {
             <HW7/>
             <HW8/>
             <HW9/>
+            <HW10/>
         </div>
     )
 }

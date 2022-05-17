@@ -32,7 +32,7 @@ function HW10() {
             {
                 loading
                     ? (
-                    <div className={style.loader}>Loading...</div>
+                        <div className={style.loader}>Loading...</div>
                     ) : (
                         <div>
                             <SuperButton onClick={setLoading}>set loading...</SuperButton>
