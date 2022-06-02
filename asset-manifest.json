@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks/static/css/main.98838814.chunk.css",
-    "main.js": "/simple-react-homeworks/static/js/main.e37c1211.chunk.js",
-    "main.js.map": "/simple-react-homeworks/static/js/main.e37c1211.chunk.js.map",
-    "runtime-main.js": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js",
-    "runtime-main.js.map": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js.map",
-    "static/js/2.fd27af14.chunk.js": "/simple-react-homeworks/static/js/2.fd27af14.chunk.js",
-    "static/js/2.fd27af14.chunk.js.map": "/simple-react-homeworks/static/js/2.fd27af14.chunk.js.map",
+    "main.css": "/simple-react-homeworks/static/css/main.1242e119.chunk.css",
+    "main.js": "/simple-react-homeworks/static/js/main.ff37a3d2.chunk.js",
+    "main.js.map": "/simple-react-homeworks/static/js/main.ff37a3d2.chunk.js.map",
+    "runtime-main.js": "/simple-react-homeworks/static/js/runtime-main.44db16e6.js",
+    "runtime-main.js.map": "/simple-react-homeworks/static/js/runtime-main.44db16e6.js.map",
+    "static/js/2.31820cbb.chunk.js": "/simple-react-homeworks/static/js/2.31820cbb.chunk.js",
+    "static/js/2.31820cbb.chunk.js.map": "/simple-react-homeworks/static/js/2.31820cbb.chunk.js.map",
     "index.html": "/simple-react-homeworks/index.html",
-    "precache-manifest.13123f6373a5c12f8a2f84bbb9d0a215.js": "/simple-react-homeworks/precache-manifest.13123f6373a5c12f8a2f84bbb9d0a215.js",
-    "service-worker.js": "/simple-react-homeworks/service-worker.js",
-    "static/css/main.98838814.chunk.css.map": "/simple-react-homeworks/static/css/main.98838814.chunk.css.map",
-    "static/js/2.fd27af14.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.fd27af14.chunk.js.LICENSE.txt"
+    "static/css/main.1242e119.chunk.css.map": "/simple-react-homeworks/static/css/main.1242e119.chunk.css.map",
+    "static/js/2.31820cbb.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.31820cbb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f59815ab.js",
-    "static/js/2.fd27af14.chunk.js",
-    "static/css/main.98838814.chunk.css",
-    "static/js/main.e37c1211.chunk.js"
+    "static/js/runtime-main.44db16e6.js",
+    "static/js/2.31820cbb.chunk.js",
+    "static/css/main.1242e119.chunk.css",
+    "static/js/main.ff37a3d2.chunk.js"
   ]
 }
