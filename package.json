@@ -1,5 +1,6 @@
 {
   "name": "todo13v2",
+  "homepage": "https://sschiglintsev.github.io/simple-react-homeworks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,6 +35,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
@@ -61,6 +64,7 @@
     "@storybook/addon-links": "^6.1.15",
     "@storybook/node-logger": "^6.1.15",
     "@storybook/preset-create-react-app": "^3.1.5",
-    "@storybook/react": "^6.1.15"
+    "@storybook/react": "^6.1.15",
+    "gh-pages": "^4.0.0"
   }
 }
