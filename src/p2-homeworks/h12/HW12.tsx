@@ -7,7 +7,6 @@ import {changeThemeAC, initialThemeType} from "./bll/themeReducer";
 
 
 function HW12() {
-    debugger
     const theme = useSelector<AppStoreType, initialThemeType>(state => state.theme,);
     const valueTheme = theme.valueTheme
 
